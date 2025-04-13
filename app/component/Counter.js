@@ -9,14 +9,14 @@ function Counter(props) {
         <div className="flex items-center gap-6">
             <button 
                 onClick={() => setCount(count - 1)} 
-                className="btn btn-active btn-error"
+                className="btn btn-xl"
             >
                 -
             </button>
             <span className="text-4xl font-mono font-bold text-lime-400">{count}</span>
             <button 
                 onClick={() => setCount(count + 1)} 
-                className="btn btn-active btn-success"
+                className="btn btn-xl"
             >
                 +
             </button>
